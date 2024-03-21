@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://lwtlab.github.io",
+  site: "https://www.thucydides.net",
   base: "www",
   integrations: [
     starlight({
