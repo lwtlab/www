@@ -1,6 +1,9 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
+import svelte from "@astrojs/svelte";
+import tailwind from "@astrojs/tailwind";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.thucydides.net",
@@ -18,14 +21,21 @@ export default defineConfig({
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", link: "/guides/example/" },
+            {
+              label: "Example Guide",
+              link: "/guides/example/",
+            },
           ],
         },
         {
           label: "Reference",
-          autogenerate: { directory: "reference" },
+          autogenerate: {
+            directory: "reference",
+          },
         },
       ],
     }),
+    svelte(),
+    tailwind({ configFile: "./tailwind.config.cjs" }),
   ],
 });

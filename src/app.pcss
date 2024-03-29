@@ -1,0 +1,90 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  @apply h-full overflow-hidden;
+}
+
+body, html {
+  user-select: none;
+}
+
+.paragraph {
+  margin-bottom: var(--paragraphBreak);
+}
+/* tk token, l level */
+.tk-l0 {
+  background-color: var(--tokenLevel0);
+}
+.tk-l1 {
+  background-color: var(--tokenLevel1);
+}
+.tk-l2 {
+  background-color: var(--tokenLevel2);
+}
+.tk-l3 {
+  background-color: var(--tokenLevel3);
+}
+.tk-l4 {
+  background-color: var(--tokenLevel4);
+}
+.tk-hl {
+  background-color: #a1ddf7;
+}
+.sent-hl {
+  background-color: #d4edf7;
+}
+.hover\:tk-l0:hover {
+  background-color: var(--tokenLevel0);
+}
+.hover\:tk-l1:hover {
+  background-color: var(--tokenLevel1);
+}
+.hover\:tk-l2:hover {
+  background-color: var(--tokenLevel2);
+}
+.hover\:tk-l3:hover {
+  background-color: var(--tokenLevel3);
+}
+.hover\:tk-l4:hover {
+  background-color: var(--tokenLevel4);
+}
+.tk-ldone {
+  color: green;
+  border: 1px solid green;
+}
+.hover\:tk-ldone:hover {
+  color: green;
+  border: 1px solid green;
+}
+.tk-ltrash {
+  color: red;
+  border: 1px solid grey;
+}
+.hover\:tk-ltrash:hover {
+  color: red;
+  border: 1px solid grey;
+}
+
+.underline-tk-l0 {
+  border-bottom: 2px solid var(--tokenLevel0);
+}
+.underline-tk-l1 {
+  border-bottom: 2px solid var(--tokenLevel1);
+}
+.underline-tk-l2 {
+  border-bottom: 2px solid var(--tokenLevel2);
+}
+.underline-tk-l3 {
+  border-bottom: 2px solid var(--tokenLevel3);
+}
+.underline-tk-l4 {
+  border-bottom: 2px solid var(--tokenLevel4);
+}
+.underline-tk-hl {
+  border-bottom: 2px solid #a1ddf7;
+}
