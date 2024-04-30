@@ -11,7 +11,7 @@ export default defineConfig({
     starlight({
       title: "Thucydides",
       social: {
-        discord: "https://discord.gg/RvvqwTwE",
+        discord: "https://discord.com/invite/X9gnN8FG",
         youtube: "https://youtube.com/thucydides",
         "x.com": "https://x.com/thucydides",
         github: "https://github.com/lwtlab",
