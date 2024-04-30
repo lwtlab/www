@@ -25,6 +25,14 @@ export default defineConfig({
               label: "Example Guide",
               link: "/guides/example/",
             },
+            {
+              label: "Privacy Guide",
+              link: "/guides/privacy/",
+            },
+            {
+              label: "Privacy Guide (EN)",
+              link: "/guides/privacy_en/",
+            },
           ],
         },
         {
