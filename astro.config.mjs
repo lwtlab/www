@@ -33,6 +33,10 @@ export default defineConfig({
               label: "Privacy Guide (EN)",
               link: "/guides/privacy_en/",
             },
+            {
+              label: "Terms & Privacy Policy",
+              link: "/guides/terms_privacy/",
+            },
           ],
         },
         {
